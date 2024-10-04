@@ -1,0 +1,31 @@
+.card_area{
+    display: flex;
+    height: 628px;
+    width: 100%
+}
+.card_left,.card_right {
+    height: 728px;
+    width: 843px;
+   
+}
+.card_left{
+    background-color: #F4F4F4;
+  display: flex;
+    align-items: center;
+   justify-content:center; 
+}
+.card_right{
+    background: rgba(200, 200, 200, 1);
+    
+}
+
+.card_left_cont{
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+  
+   width: 472px;
+   height: 291px;
+  
+}
+
