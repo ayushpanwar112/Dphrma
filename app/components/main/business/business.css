@@ -1,9 +1,120 @@
-.business_container{
-    width: 1440px;
-height: 1223px;
-
+.business_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    width: 100%;
+    height: auto;
+    margin-top: 10%;
 }
-.sub_heading{
+
+.sub_heading {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
     text-align: center;
-    margin-left: 350px;
+    gap: 40px;
+    margin: 0 auto; 
+}
+
+.stats-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f7f7f7;
+    padding: 20px;
+    border-radius: 8px;
+    width: 100%;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.stat-item {
+    text-align: center;
+    flex: 1;
+    min-width: 150px;
+}
+
+.stat-item h3 {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.stat-item p {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.divider {
+    background-color: rgba(10, 10, 14, 0.482);
+    width: 1px;
+    height: 60px; 
+}
+
+.business_img {
+    display: block;
+    max-width: 90%;  
+    height: 648px;
+    background-color: rgba(83, 87, 87, 0.265);
+    margin-top: 40px;
+    width: 70%;  
+}
+
+@media (max-width: 1024px) {
+    .business_container {
+        height: auto;
+    }
+
+    .sub_heading {
+        width: 70%;
+        gap: 30px;
+    }
+
+    .stats-container {
+        flex-direction: column;
+        gap: 30px;
+        text-align: center;
+    }
+
+    .divider {
+        display: none;
+    }
+
+    .stat-item p {
+        font-size: 24px;
+    }
+
+    .business_img {
+        width: 100%;  /* Ensure image takes full width on smaller screens */
+        height: auto;
+    }
+}
+
+@media (max-width: 768px) {
+    .sub_heading {
+        width: 80%;
+    }
+
+    .stat-item h3 {
+        font-size: 14px;
+    }
+
+    .stat-item p {
+        font-size: 22px;
+    }
+}
+
+@media (max-width: 480px) {
+    .sub_heading {
+        width: 90%;
+        gap: 20px;
+    }
+
+    .stat-item p {
+        font-size: 18px;
+    }
+
+    .business_img {
+        width: 100%;
+        height: auto;  /* Ensure image height is responsive */
+    }
 }

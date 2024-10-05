@@ -1,3 +1,7 @@
+
+:root{
+  --backgrd:rgba(83, 87, 87, 0.265);
+}
 *{
   margin: 0;
   padding: 0;
@@ -5,6 +9,7 @@
 }
 body{
   min-height: 100vh;
+  overflow-x: hidden;
  
 }
 a{
@@ -39,3 +44,19 @@ font-weight: 600;
 color: #FFFFFF;
  cursor: pointer;
 }
+.main_logo
+{
+  animation: rotate 2s ease-in-out infinite;
+}
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(10deg); 
+  }
+  100% {
+    transform: rotate(180deg);
+  }
+}
+
