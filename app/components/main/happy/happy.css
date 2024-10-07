@@ -2,13 +2,17 @@
     display: flex;
         
     align-items: center;   
-    height: auto;      
+    height: 60%;      
      flex-direction: column;  
      margin-bottom: 300px;
+     background-color: bisque;
     
      
   }
   
+  .sub-happy{
+    margin-top: 80px;
+  }
   .client {
     padding: 10px;
     width: 500px;
@@ -16,12 +20,13 @@
   border-radius: 5px;
     height: 350px;
     box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.5);
-    transition: box-shadow 0.3s ease-in-out, transform 0.3s ease-in-out;
+    transition: box-shadow 0.3s ease-in-out, transform 0.3s ease-in-out ,background-color 0.7s ease-in;
    
   }
   .client:hover {
     box-shadow: 15px 25px 10px 10px rgba(5, 5, 5, 0.7);
     transform: scale(1.05);
+    background-color: white;
   }
   .client_details{
     display: flex;

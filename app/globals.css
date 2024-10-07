@@ -7,10 +7,10 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 body{
   min-height: 100vh;
   overflow-x: hidden;
- 
 }
 a{
   text-decoration: none;
@@ -20,14 +20,14 @@ a{
   font-size: 50px;
   font-weight: 600;
 }
+
 .sub_heading_txt {
   font-size: 20px;
   font-weight: 400;
- 
 }
-.heading{
-  font-size: 45px;
-  font-weight: 550px;
+.heading {
+  font-size: 75px;
+  font-weight: 700px;
 }
 .para {
   font-size: 20px;
@@ -48,6 +48,7 @@ color: #FFFFFF;
 {
   animation: rotate 2s ease-in-out infinite;
 }
+
 @keyframes rotate {
   0% {
     transform: rotate(0deg);
@@ -60,3 +61,6 @@ color: #FFFFFF;
   }
 }
 
+.animation{
+  background-color: #a79595;
+}

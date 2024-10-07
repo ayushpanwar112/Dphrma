@@ -1,14 +1,14 @@
 .card_area {
     display: flex;
     flex-direction: row;
-    height: auto;
+    height: 100vh;
     width: 100%;
 }
 
 .card_left,
 .card_right {
     flex: 1;
-    height: 628px;
+    height: 100%;
 }
 
 .card_left {

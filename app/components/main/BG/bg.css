@@ -1,21 +1,30 @@
 .bg_container {
-    width: 100%;
-    height: auto;
+    width: 90%;
+    height: 100vh;
     padding: 0;
-    margin: 5% 0 0 200px;
+    margin-top: 10% ;
+     margin-left: 5%;
+    background-color: rgb(214, 219, 217);
+    margin-top: 100%;
+    
+    
 }
-
+.sub-bg{
+    margin-top: 100px;
+}
 .bg_text {
+   
     display: flex;
     flex-direction: column;
    text-align: center;
     justify-content: center;
-            margin-right: 20%;
+        
     gap: 20px;
     margin-bottom: 100px;
 }
 
 .bg_sub {
+    margin-left: 20px;
     display: flex;
     width: 100%;
     justify-content: space-between;

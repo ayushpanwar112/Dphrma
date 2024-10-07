@@ -1,3 +1,18 @@
-.foot_main{
-    width: 100%;
-}
+
+.footer {
+    height: 100%;
+    background-color: #002a77;
+    color: white;
+    padding: 40px 0;
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .sub-footer{
+    font-size: 100px;
+    margin-bottom: 20px;
+    
+  }
+  .para-footer{
+    font-size: 70px;
+  }

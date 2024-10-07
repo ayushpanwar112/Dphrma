@@ -3,7 +3,7 @@ import"./happy.css"
 const Happy = () => {
   return (
     <div className="happy_container">
-      <h2 className="heading">Our happy clients</h2>
+      <h2 className="heading sub-happy">Our happy clients</h2>
       <div className="happy-cont">
    <div className="client">
        <div className="para">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illo, Lorem ipsum, dolor sit amet consectetur adipisicing elit. Libero fugit repudiandae, eius officiis asperiores culpa? Error veritatis sunt odio fugit. Ea reprehenderit asperiores voluptatibus? Quibusdam provident debitis aspernatur impedit rerum.quos?</div>

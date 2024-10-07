@@ -1,13 +1,28 @@
-.partner_container{
+.partner_container {
     display: flex;
-    width: 100%;
+    width: 80%;
     height: auto;
     margin: 90px auto;
-    
-   
+    margin-top: 30%;
+    background-color: rgb(239, 235, 199); /* Default background */
+    color: rgb(150, 150, 150);
+    border-radius: 10px;
+    border: 3px solid white;
     flex-direction: column;
- justify-content: center;
-}
+    justify-content: center;
+    transition: box-shadow 0.5s ease, background-color 0.3s ease;
+    padding-bottom: 20px;
+  }
+  
+  .partner_container:hover {
+    background-color: rgba(9, 9, 9, 0.991); /* Slightly transparent background on hover */
+    /* Vibrant glowing box-shadow */
+    box-shadow: 0 15px 25px rgba(0, 255, 255, 0.6), 0 5px 15px rgba(0, 128, 255, 0.8), 0 10px 30px rgba(0, 0, 255, 0.5); 
+  }
+  
+
+
+
 .content{
     display: flex;
     justify-content: center;

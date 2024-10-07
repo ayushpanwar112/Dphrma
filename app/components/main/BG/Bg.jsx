@@ -5,7 +5,7 @@ const Bg = () => {
   return (
     <div className='bg_container'>
      <div className='bg_text'>
-        <h2 className='heading'>
+        <h2 className='heading sub-bg'>
             Why our client trust us
         </h2>
         
